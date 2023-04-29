@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(207, 236, 199);
+
+  color: rgb(0, 0, 0);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.top-txt {
+  margin-bottom: 3rem;
+}
+.container {
+  box-shadow: 0 0 4px 1px rgb(42, 75, 37);
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+.container p {
+  color: rgb(20, 94, 82);
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.inputContainer {
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.inputContainer label {
+  font-size: larger;
+}
+.inputContainer input {
+  border: 1px solid darkgreen;
+  outline: none;
+  padding: 4px;
+  font-size: large;
+  border-radius: 2px;
+  font-family: "Times New Roman", Times, serif;
+}
+.temp-con h3 {
+  text-align: center;
+  margin: 1.1rem;
+}
+.temp-con input {
+  display: block;
+  padding: 20px;
+  margin: 20px;
+  margin-top: 10px;
+  font-size: 1em;
+  color: #131212;
+  margin-top: 2rem;
+}
+
+.temp-con {
+  margin-top: 4rem;
+  margin-left: 4rem;
+  box-shadow: 0 0 4px 1px rgb(42, 75, 37);
+}
+
+.temp-con button {
+  margin-left: 4rem;
+}
+::-webkit-input-placeholder {
+  color: #0c0c0c;
+}
+::-ms-input-placeholder {
+  color: #0c0c0c;
+}
+.main-container {
+  display: flex;
+}
